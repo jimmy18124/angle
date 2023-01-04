@@ -1,0 +1,1062 @@
+Archive member included to satisfy reference by file (symbol)
+
+E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+                              (call_start_cpu)
+E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                              E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o) (bootloader_utility_load_partition_table)
+E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                              E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o) (bootloader_init)
+E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                              E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o) (bootloader_mmap)
+E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                              E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o) (esp_image_load)
+E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                              E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o) (esp_partition_table_basic_verify)
+E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+                              E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o) (bootloader_common_ota_select_valid)
+E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                              E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o) (g_rom_flashchip)
+E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                              E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o) (spi_flash_get_id_raw)
+E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+                              E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o) (esp_log_early_timestamp)
+E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                              E:/code/angle/angle/build/bootloader/log\liblog.a(log.o) (ets_vprintf)
+E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+                              E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o) (crc32_le)
+E:/code/angle/components/esp8266/lib\libcore.a(phy.o)
+                              E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o) (phy_reg_default)
+E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+                              E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o) (uart_div_modify)
+
+Allocating common symbols
+Common symbol       size              file
+
+esp_image_spi_freq_t
+                    0x4               E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .data          0x00000000        0x0 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .bss           0x00000000        0x0 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .xt.lit        0x00000000       0x18 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .xt.prop       0x00000000       0xe4 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ COMMON         0x00000000        0x4 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .text          0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .data          0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .bss           0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .xt.lit        0x00000000       0x30 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .xt.prop       0x00000000      0x4bc E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .text          0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .data          0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .bss           0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .xt.lit        0x00000000       0x28 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .xt.prop       0x00000000      0x258 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .literal.bootloader_flash_write
+                0x00000000       0x28 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .literal.bootloader_flash_erase_sector
+                0x00000000        0x4 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .text          0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .data          0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .bss           0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .text.bootloader_flash_write
+                0x00000000       0x9d E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .text.bootloader_flash_erase_sector
+                0x00000000       0x15 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .xt.lit        0x00000000       0x30 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .xt.prop       0x00000000      0x264 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .literal.esp_image_verify_bootloader
+                0x00000000        0x8 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .text          0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .data          0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .bss           0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .text.esp_image_verify_bootloader
+                0x00000000       0x41 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .xt.lit        0x00000000       0x40 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .xt.prop       0x00000000      0x474 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .text          0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .data          0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .bss           0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .xt.lit        0x00000000        0x8 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .xt.prop       0x00000000       0xfc E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .literal.bootloader_common_check_long_hold_gpio
+                0x00000000       0x58 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .text          0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .data          0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .bss           0x00000000        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .text.bootloader_common_check_long_hold_gpio
+                0x00000000      0x22c E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .xt.lit        0x00000000       0x18 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .xt.prop       0x00000000      0x420 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .literal.spi_flash_program
+                0x00000000       0x20 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.__spi_flash_write
+                0x00000000        0x8 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.__spi_flash_read
+                0x00000000       0x10 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_write_status
+                0x00000000        0xc E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_check_wr_protect
+                0x00000000       0x4c E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_erase_sector
+                0x00000000       0x18 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_read
+                0x00000000       0x24 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_write
+                0x00000000       0x3c E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_erase_range
+                0x00000000       0x10 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_cache2phys
+                0x00000000       0x14 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_get_chip_size
+                0x00000000        0x4 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text          0x00000000        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .data          0x00000000        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .bss           0x00000000        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_program
+                0x00000000       0xcb E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.__spi_flash_write
+                0x00000000       0x23 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.__spi_flash_read
+                0x00000000       0x31 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_write_status
+                0x00000000       0x2a E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_check_wr_protect
+                0x00000000      0x161 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_erase_sector
+                0x00000000       0x56 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_read
+                0x00000000      0x110 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_write
+                0x00000000      0x170 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_erase_range
+                0x00000000       0x6d E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_cache2phys
+                0x00000000       0x48 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.spi_flash_get_chip_size
+                0x00000000        0x7 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .xt.lit        0x00000000       0xd0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .xt.prop       0x00000000      0xbdc E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .literal.spi_flash_write_status_raw
+                0x00000000       0x1c E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .literal.spi_flash_erase_sector_raw
+                0x00000000       0x14 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .literal.spi_flash_write_raw
+                0x00000000        0xc E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .literal.spi_flash_read_raw
+                0x00000000        0xc E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .text          0x00000000        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .data          0x00000000        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .bss           0x00000000        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .text.spi_flash_write_status_raw
+                0x00000000       0x5c E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .text.spi_flash_erase_sector_raw
+                0x00000000       0x54 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .text.spi_flash_write_raw
+                0x00000000       0x43 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .text.spi_flash_read_raw
+                0x00000000       0x43 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .xt.lit        0x00000000       0x58 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .xt.prop       0x00000000      0x360 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .text          0x00000000        0x0 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .data          0x00000000        0x0 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .bss           0x00000000        0x0 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .xt.lit        0x00000000       0x10 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .xt.prop       0x00000000       0xcc E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .text          0x00000000        0x0 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .data          0x00000000        0x0 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .bss           0x00000000        0x0 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .xt.lit        0x00000000       0x20 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .xt.prop       0x00000000       0xcc E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .literal.crc16_le
+                0x00000000        0x4 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .literal.esp_crc8
+                0x00000000        0x4 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .text          0x00000000        0x0 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .data          0x00000000        0x0 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .bss           0x00000000        0x0 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .text.crc16_le
+                0x00000000       0x39 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .text.esp_crc8
+                0x00000000       0x21 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .rodata.crc8_le_table
+                0x00000000      0x100 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .rodata.crc16_le_table
+                0x00000000      0x200 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .xt.lit        0x00000000       0x18 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .xt.prop       0x00000000       0xfc E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .literal.phy_reg_default
+                0x00000000        0x0 E:/code/angle/components/esp8266/lib\libcore.a(phy.o)
+ .text          0x00000000        0x0 E:/code/angle/components/esp8266/lib\libcore.a(phy.o)
+ .data          0x00000000        0x0 E:/code/angle/components/esp8266/lib\libcore.a(phy.o)
+ .bss           0x00000000        0x0 E:/code/angle/components/esp8266/lib\libcore.a(phy.o)
+ .xt.lit        0x00000000        0x8 E:/code/angle/components/esp8266/lib\libcore.a(phy.o)
+ .xt.prop       0x00000000       0x48 E:/code/angle/components/esp8266/lib\libcore.a(phy.o)
+ .literal.uart_buff_switch
+                0x00000000        0x0 E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+ .literal.uart_div_modify
+                0x00000000        0x0 E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+ .literal.Uart_Init
+                0x00000000        0x0 E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+ .text          0x00000000        0x0 E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+ .data          0x00000000        0x0 E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+ .bss           0x00000000        0x0 E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+ .text.uart_buff_switch
+                0x00000000        0x2 E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+ .text.Uart_Init
+                0x00000000        0x2 E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+ .xt.lit        0x00000000        0x8 E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+ .xt.prop       0x00000000       0x78 E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+dport0_seg       0x3ff00000         0x00000010
+dram_seg         0x3ffe8000         0x00017c00
+iram_seg         0x40100000         0x00008000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD E:/code/angle/angle/build/bootloader/main\libmain.a
+LOAD E:/code/angle/components/esp8266/lib\libcore.a
+LOAD E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a
+LOAD E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a
+LOAD E:/code/angle/angle/build/bootloader/log\liblog.a
+LOAD E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a
+LOAD E:/code/angle/angle/build/bootloader/util\libutil.a
+LOAD E:/code/angle/components/esp8266/lib\libgcc.a
+LOAD d:/program files (x86)/aithinkeride_v1.5.2/msys32/opt/esp8266/v5.2.0_for_3.0/bin/../xtensa-lx106-elf/sysroot/lib\libstdc++.a
+LOAD d:/program files (x86)/aithinkeride_v1.5.2/msys32/opt/esp8266/v5.2.0_for_3.0/bin/../lib/gcc/xtensa-lx106-elf/5.2.0\libgcov.a
+END GROUP
+
+.text           0x40100000     0x1bfe
+                0x40100000                _stext = .
+                0x40100000                _text_start = ABSOLUTE (.)
+                0x40100000                . = ALIGN (0x10)
+ *(.entry.text)
+ *(.init.literal)
+ *(.init)
+ *(.literal .text .literal.* .text.* .stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
+ .literal.selected_boot_partition
+                0x40100000        0x0 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+                                  0x4 (size before relaxing)
+ .literal.select_image
+                0x40100000        0xc E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+                                 0x1c (size before relaxing)
+ .literal.call_start_cpu
+                0x4010000c        0x0 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+                                  0xc (size before relaxing)
+ .literal.log_invalid_app_partition
+                0x4010000c       0x14 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x20 (size before relaxing)
+ .literal.try_load_partition
+                0x40100020        0x4 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x10 (size before relaxing)
+ .literal.bootloader_utility_load_partition_table
+                0x40100024       0x4c E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x74 (size before relaxing)
+ .literal.bootloader_utility_get_selected_boot_partition
+                0x40100070       0x1c E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x5c (size before relaxing)
+ .literal.bootloader_utility_load_boot_image
+                0x4010008c        0xc E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x40 (size before relaxing)
+ .literal.bootloader_utility_load_image
+                0x40100098        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                  0x4 (size before relaxing)
+ .literal.print_flash_info
+                0x40100098       0x48 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0x54 (size before relaxing)
+ .literal.uart_console_configure
+                0x401000e0        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                  0x4 (size before relaxing)
+ .literal.update_flash_config
+                0x401000e0        0x4 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                  0x8 (size before relaxing)
+ .literal.bootloader_main
+                0x401000e4       0x10 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0x34 (size before relaxing)
+ .literal.bootloader_init
+                0x401000f4        0x8 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0x10 (size before relaxing)
+ .literal.bootloader_flash_read_no_decrypt
+                0x401000fc        0x4 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .literal.bootloader_mmap
+                0x40100100       0x30 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                                 0x3c (size before relaxing)
+ .literal.bootloader_munmap
+                0x40100130        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                                  0x8 (size before relaxing)
+ .literal.bootloader_flash_read
+                0x40100130        0xc E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                                 0x20 (size before relaxing)
+ .literal.should_map
+                0x4010013c        0x4 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                  0x8 (size before relaxing)
+ .literal.should_load
+                0x40100140        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                  0x4 (size before relaxing)
+ .literal.verify_image_header
+                0x40100140       0x14 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x20 (size before relaxing)
+ .literal.process_segment_data
+                0x40100154        0x8 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x14 (size before relaxing)
+ .literal.verify_checksum
+                0x4010015c        0x8 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x1c (size before relaxing)
+ .literal.process_segment
+                0x40100164       0x18 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x40 (size before relaxing)
+ .literal.esp_image_load
+                0x4010017c       0x14 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x44 (size before relaxing)
+ .literal.esp_partition_table_basic_verify
+                0x40100190       0x1c E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                                 0x2c (size before relaxing)
+ .literal.bootloader_common_ota_select_crc
+                0x401001ac        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+                                  0x4 (size before relaxing)
+ .literal.bootloader_common_ota_select_valid
+                0x401001ac        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+                                  0x4 (size before relaxing)
+ .literal.spi_user_cmd
+                0x401001ac        0x4 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.special_flash_read_status
+                0x401001b0        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x4 (size before relaxing)
+ .literal.flash_gd25q32c_read_status
+                0x401001b0        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x4 (size before relaxing)
+ .literal.special_flash_write_status
+                0x401001b0        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x8 (size before relaxing)
+ .literal.spi_flash_enable_qio_bit6
+                0x401001b0        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x4 (size before relaxing)
+ .literal.flash_gd25q32c_write_status
+                0x401001b0        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x4 (size before relaxing)
+ .literal.flash_gd25q32c_enable_QIO_mode
+                0x401001b0        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.en25q16x_read_sfdp
+                0x401001b0        0x4 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x8 (size before relaxing)
+ .literal.spi_flash_get_id
+                0x401001b4        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.spi_flash_read_status
+                0x401001b4        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.spi_flash_issi_enable_QIO_mode
+                0x401001b4        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0xc (size before relaxing)
+ .literal.special_flash_set_mode
+                0x401001b4        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                  0x8 (size before relaxing)
+ .literal.en25q16x_write_volatile_status
+                0x401001b4        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x14 (size before relaxing)
+ .literal.user_spi_flash_dio_to_qio_pre_init
+                0x401001b4        0xc E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x30 (size before relaxing)
+ .literal.esp_spi_flash_init
+                0x401001c0       0x20 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x28 (size before relaxing)
+ .literal.Cache_Read_Disable_2
+                0x401001e0        0xc E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                 0x10 (size before relaxing)
+ .literal.Cache_Read_Enable_2
+                0x401001ec        0x4 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                  0xc (size before relaxing)
+ .literal.spi_flash_get_id_raw
+                0x401001f0       0x10 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                 0x1c (size before relaxing)
+ .literal.spi_flash_read_status_raw
+                0x40100200        0x4 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                  0xc (size before relaxing)
+ .literal.spi_flash_enable_qmode_raw
+                0x40100204        0x4 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                 0x10 (size before relaxing)
+ .literal.spi_user_cmd_raw
+                0x40100208       0x64 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                 0x8c (size before relaxing)
+ .literal.spi_flash_switch_to_qio_raw
+                0x4010026c        0x8 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                  0xc (size before relaxing)
+ .literal.uart_putc
+                0x40100274        0xc E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .literal.ets_putc
+                0x40100280        0x0 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                                  0x8 (size before relaxing)
+ .literal.ets_vprintf
+                0x40100280        0x8 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .literal.ets_printf
+                0x40100288        0x0 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                                  0x4 (size before relaxing)
+ .literal.crc32_le
+                0x40100288        0x4 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .iram1.0.literal
+                0x4010028c        0x8 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .iram1.1.literal
+                0x40100294       0x18 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+                                 0x30 (size before relaxing)
+ .text.selected_boot_partition
+                0x401002ac        0xf E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+                                 0x13 (size before relaxing)
+ *fill*         0x401002bb        0x1 
+ .text.select_image
+                0x401002bc       0x68 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+                                 0x70 (size before relaxing)
+ .text.call_start_cpu
+                0x40100324       0x26 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+                                 0x2e (size before relaxing)
+                0x40100324                call_start_cpu
+ *fill*         0x4010034a        0x2 
+ .text.log_invalid_app_partition
+                0x4010034c       0x4b E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x53 (size before relaxing)
+ *fill*         0x40100397        0x1 
+ .text.try_load_partition
+                0x40100398       0x3d E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x41 (size before relaxing)
+ *fill*         0x401003d5        0x3 
+ .text.bootloader_utility_load_partition_table
+                0x401003d8      0x171 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                0x185 (size before relaxing)
+                0x401003d8                bootloader_utility_load_partition_table
+ *fill*         0x40100549        0x3 
+ .text.bootloader_utility_get_selected_boot_partition
+                0x4010054c      0x146 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                0x15e (size before relaxing)
+                0x4010054c                bootloader_utility_get_selected_boot_partition
+ *fill*         0x40100692        0x2 
+ .text.bootloader_utility_load_boot_image
+                0x40100694       0xd6 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0xfa (size before relaxing)
+                0x40100694                bootloader_utility_load_boot_image
+ *fill*         0x4010076a        0x2 
+ .text.bootloader_utility_load_image
+                0x4010076c       0x21 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                 0x25 (size before relaxing)
+                0x4010076c                bootloader_utility_load_image
+ *fill*         0x4010078d        0x3 
+ .text.print_flash_info
+                0x40100790       0xc6 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0xca (size before relaxing)
+ *fill*         0x40100856        0x2 
+ .text.uart_console_configure
+                0x40100858       0x17 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ *fill*         0x4010086f        0x1 
+ .text.update_flash_config
+                0x40100870       0x21 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ *fill*         0x40100891        0x3 
+ .text.bootloader_main
+                0x40100894       0x69 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0x7d (size before relaxing)
+ *fill*         0x401008fd        0x3 
+ .text.bootloader_init
+                0x40100900       0x25 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0x29 (size before relaxing)
+                0x40100900                bootloader_init
+ *fill*         0x40100925        0x3 
+ .text.bootloader_flash_read_no_decrypt
+                0x40100928       0x15 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x4010093d        0x3 
+ .text.bootloader_mmap
+                0x40100940       0xa6 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                                 0xaa (size before relaxing)
+                0x40100940                bootloader_mmap
+ *fill*         0x401009e6        0x2 
+ .text.bootloader_munmap
+                0x401009e8       0x23 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                0x401009e8                bootloader_munmap
+ *fill*         0x40100a0b        0x1 
+ .text.bootloader_flash_read
+                0x40100a0c       0x5b E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                                 0x62 (size before relaxing)
+                0x40100a0c                bootloader_flash_read
+ *fill*         0x40100a67        0x1 
+ .text.should_map
+                0x40100a68       0x15 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x40100a7d        0x3 
+ .text.should_load
+                0x40100a80       0x19 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x1d (size before relaxing)
+ *fill*         0x40100a99        0x3 
+ .text.verify_image_header
+                0x40100a9c       0x7d E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x85 (size before relaxing)
+ *fill*         0x40100b19        0x3 
+ .text.process_segment_data
+                0x40100b1c       0x87 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x8f (size before relaxing)
+ *fill*         0x40100ba3        0x1 
+ .text.verify_checksum
+                0x40100ba4       0x92 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                 0x9a (size before relaxing)
+ *fill*         0x40100c36        0x2 
+ .text.process_segment
+                0x40100c38      0x11a E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                0x12a (size before relaxing)
+ *fill*         0x40100d52        0x2 
+ .text.esp_image_load
+                0x40100d54      0x193 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                0x1ab (size before relaxing)
+                0x40100d54                esp_image_load
+ *fill*         0x40100ee7        0x1 
+ .text.esp_partition_table_basic_verify
+                0x40100ee8       0xe7 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                                 0xeb (size before relaxing)
+                0x40100ee8                esp_partition_table_basic_verify
+ *fill*         0x40100fcf        0x1 
+ .text.bootloader_common_ota_select_crc
+                0x40100fd0       0x18 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+                0x40100fd0                bootloader_common_ota_select_crc
+ .text.bootloader_common_ota_select_valid
+                0x40100fe8       0x2c E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+                0x40100fe8                bootloader_common_ota_select_valid
+ .text.spi_user_cmd
+                0x40101014       0x4d E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                0x40101014                spi_user_cmd
+ *fill*         0x40101061        0x3 
+ .text.special_flash_read_status
+                0x40101064       0x39 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x3d (size before relaxing)
+                0x40101064                special_flash_read_status
+ *fill*         0x4010109d        0x3 
+ .text.flash_gd25q32c_read_status
+                0x401010a0       0x33 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ *fill*         0x401010d3        0x1 
+ .text.special_flash_write_status
+                0x401010d4       0x59 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x61 (size before relaxing)
+                0x401010d4                special_flash_write_status
+ *fill*         0x4010112d        0x3 
+ .text.spi_flash_enable_qio_bit6
+                0x40101130       0x17 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x1b (size before relaxing)
+ *fill*         0x40101147        0x1 
+ .text.flash_gd25q32c_write_status
+                0x40101148       0x30 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .text.flash_gd25q32c_enable_QIO_mode
+                0x40101178       0x3e E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x46 (size before relaxing)
+ *fill*         0x401011b6        0x2 
+ .text.en25q16x_read_sfdp
+                0x401011b8       0x43 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                0x401011b8                en25q16x_read_sfdp
+ *fill*         0x401011fb        0x1 
+ .text.spi_flash_get_id
+                0x401011fc       0x26 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                0x401011fc                spi_flash_get_id
+ *fill*         0x40101222        0x2 
+ .text.spi_flash_read_status
+                0x40101224       0x28 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                0x40101224                spi_flash_read_status
+ .text.spi_flash_issi_enable_QIO_mode
+                0x4010124c       0x43 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x4b (size before relaxing)
+ *fill*         0x4010128f        0x1 
+ .text.special_flash_set_mode
+                0x40101290       0x40 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x44 (size before relaxing)
+                0x40101290                special_flash_set_mode
+ .text.en25q16x_write_volatile_status
+                0x401012d0       0x4f E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0x5b (size before relaxing)
+                0x401012d0                en25q16x_write_volatile_status
+ *fill*         0x4010131f        0x1 
+ .text.user_spi_flash_dio_to_qio_pre_init
+                0x40101320       0xb9 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0xc5 (size before relaxing)
+                0x40101320                user_spi_flash_dio_to_qio_pre_init
+ *fill*         0x401013d9        0x3 
+ .text.esp_spi_flash_init
+                0x401013dc       0xc1 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                 0xc5 (size before relaxing)
+                0x401013dc                esp_spi_flash_init
+ *fill*         0x4010149d        0x3 
+ .text.Cache_Read_Disable_2
+                0x401014a0       0x34 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                0x401014a0                Cache_Read_Disable_2
+ .text.Cache_Read_Enable_2
+                0x401014d4       0x28 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                0x401014d4                Cache_Read_Enable_2
+                0x401014d4                Cache_Read_Enable_New
+ .text.spi_flash_get_id_raw
+                0x401014fc       0x57 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                0x401014fc                spi_flash_get_id_raw
+ *fill*         0x40101553        0x1 
+ .text.spi_flash_read_status_raw
+                0x40101554       0x2f E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                 0x33 (size before relaxing)
+                0x40101554                spi_flash_read_status_raw
+ *fill*         0x40101583        0x1 
+ .text.spi_flash_enable_qmode_raw
+                0x40101584       0x33 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                 0x37 (size before relaxing)
+                0x40101584                spi_flash_enable_qmode_raw
+ *fill*         0x401015b7        0x1 
+ .text.spi_user_cmd_raw
+                0x401015b8      0x3d7 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                0x401015b8                spi_user_cmd_raw
+ *fill*         0x4010198f        0x1 
+ .text.spi_flash_switch_to_qio_raw
+                0x40101990       0x25 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                0x40101990                spi_flash_switch_to_qio_raw
+ *fill*         0x401019b5        0x3 
+ .text.uart_putc
+                0x401019b8       0x21 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ *fill*         0x401019d9        0x3 
+ .text.ets_putc
+                0x401019dc       0x27 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                0x401019dc                ets_putc
+ *fill*         0x40101a03        0x1 
+ .text.ets_vprintf
+                0x40101a04       0x1f E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                0x40101a04                ets_vprintf
+ *fill*         0x40101a23        0x1 
+ .text.ets_printf
+                0x40101a24       0x27 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                                 0x2b (size before relaxing)
+                0x40101a24                ets_printf
+ *fill*         0x40101a4b        0x1 
+ .text.crc32_le
+                0x40101a4c       0x2f E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+                0x40101a4c                crc32_le
+ *fill*         0x40101a7b        0x1 
+ .text.phy_reg_default
+                0x40101a7c       0x36 E:/code/angle/components/esp8266/lib\libcore.a(phy.o)
+                0x40101a8c                phy_reg_default
+ *fill*         0x40101ab2        0x2 
+ .text.uart_div_modify
+                0x40101ab4       0x50 E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+                0x40101ac4                uart_div_modify
+ *fill*         0x40101b04        0x0 
+ *fill*         0x40101b04        0x0 
+ .text.index_to_partition
+                0x40101b04       0x4b E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x0 
+ *fill*         0x40101b4f        0x1 
+ .text.verify_segment_header
+                0x40101b50        0x4 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *fill*         0x40101b54        0x0 
+ *(.iram1 .iram1.*)
+ .iram1.0       0x40101b54       0x18 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+                0x40101b54                esp_log_early_timestamp
+ .iram1.1       0x40101b6c       0x92 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+                                 0x9d (size before relaxing)
+                0x40101b6c                esp_early_log_write
+ *(.fini.literal)
+ *(.fini)
+ *(.gnu.version)
+                0x40101bfe                _text_end = ABSOLUTE (.)
+                0x40101bfe                _etext = .
+
+.bss            0x3ffe8000      0x408
+                0x3ffe8000                . = ALIGN (0x8)
+                0x3ffe8000                _bss_start = ABSOLUTE (.)
+ *(.dynsbss)
+ *(.sbss)
+ *(.sbss.*)
+ *(.gnu.linkonce.sb.*)
+ *(.scommon)
+ *(.sbss2)
+ *(.sbss2.*)
+ *(.gnu.linkonce.sb2.*)
+ *(.dynbss)
+ *(.bss)
+ *(.bss.*)
+ .bss.mapped    0x3ffe8000        0x1 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x3ffe8001        0x3 
+ .bss.pbuf$3468
+                0x3ffe8004      0x400 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .bss.FlashIsOnGoing
+                0x3ffe8404        0x1 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                0x3ffe8404                FlashIsOnGoing
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x3ffe8408                . = ALIGN (0x8)
+ *fill*         0x3ffe8405        0x3 
+                0x3ffe8408                _bss_end = ABSOLUTE (.)
+
+.data           0x3ffe8408       0x18
+                0x3ffe8408                _data_start = ABSOLUTE (.)
+ *(.data)
+ *(.data.*)
+ .data.g_rom_flashchip
+                0x3ffe8408       0x18 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                0x3ffe8408                g_rom_flashchip
+ *(.gnu.linkonce.d.*)
+ *(.data1)
+ *(.sdata)
+ *(.sdata.*)
+ *(.gnu.linkonce.s.*)
+ *(.sdata2)
+ *(.sdata2.*)
+ *(.gnu.linkonce.s2.*)
+ *(.jcr)
+                0x3ffe8420                _data_end = ABSOLUTE (.)
+
+.rodata         0x3ffe8420      0xdc8
+                0x3ffe8420                _rodata_start = ABSOLUTE (.)
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x3ffe8420       0x21 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ *fill*         0x3ffe8441        0x3 
+ .rodata.str1.4
+                0x3ffe8444      0x356 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                0x35e (size before relaxing)
+ *fill*         0x3ffe879a        0x2 
+ .rodata.str1.4
+                0x3ffe879c       0xf2 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                 0xfe (size before relaxing)
+ *fill*         0x3ffe888e        0x2 
+ .rodata.print_flash_info
+                0x3ffe8890       0x28 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .rodata.str1.4
+                0x3ffe88b8      0x19f E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x3ffe8a57        0x1 
+ .rodata.str1.4
+                0x3ffe8a58      0x26b E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                0x26f (size before relaxing)
+ *fill*         0x3ffe8cc3        0x1 
+ .rodata.str1.4
+                0x3ffe8cc4       0xb4 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .rodata.str1.4
+                0x3ffe8d78       0x29 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ *fill*         0x3ffe8da1        0x3 
+ .rodata.str1.4
+                0x3ffe8da4       0x24 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+                                 0x22 (size before relaxing)
+ .rodata.s_log_prefix
+                0x3ffe8dc8        0x6 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ *fill*         0x3ffe8dce        0x2 
+ .rodata.s_log_color
+                0x3ffe8dd0       0x18 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .rodata.crc32_le_table
+                0x3ffe8de8      0x400 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ *(.gnu.linkonce.r.*)
+ *(.rodata1)
+                0x3ffe91e8                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+ *(.xt_except_table)
+ *(.gcc_except_table)
+ *(.gnu.linkonce.e.*)
+ *(.gnu.version_r)
+ *(.eh_frame)
+                0x3ffe91e8                . = ((. + 0x3) & 0xfffffffc)
+                0x3ffe91e8                __init_array_start = ABSOLUTE (.)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x3ffe91e8                __init_array_end = ABSOLUTE (.)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x3ffe91e8                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+ *(.xt_except_desc)
+ *(.gnu.linkonce.h.*)
+                0x3ffe91e8                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+ *(.xt_except_desc_end)
+ *(.dynamic)
+ *(.gnu.version_d)
+                0x3ffe91e8                _rodata_end = ABSOLUTE (.)
+                0x3ffe91e8                _lit4_start = ABSOLUTE (.)
+ *(*.lit4)
+ *(.lit4.*)
+ *(.gnu.linkonce.lit4.*)
+                0x3ffe91e8                _lit4_end = ABSOLUTE (.)
+                0x3ffe91e8                . = ALIGN (0x4)
+                0x3ffe91e8                _heap_start = ABSOLUTE (.)
+                0x60001100                PROVIDE (rtc_sys_info, 0x60001100)
+                0x400040c0                PROVIDE (SPI_sector_erase, 0x400040c0)
+                0x40004174                PROVIDE (SPI_page_program, 0x40004174)
+                0x400042ac                PROVIDE (SPI_read_data, 0x400042ac)
+                0x400043c8                PROVIDE (SPI_read_status, 0x400043c8)
+                0x40004400                PROVIDE (SPI_write_status, 0x40004400)
+                0x4000443c                PROVIDE (SPI_write_enable, 0x4000443c)
+                0x4000448c                PROVIDE (Wait_SPI_Idle, 0x4000448c)
+                0x400044c0                PROVIDE (Enable_QMode, 0x400044c0)
+                [!provide]                PROVIDE (Disable_QMode, 0x40004508)
+                0x40004678                PROVIDE (Cache_Read_Enable, 0x40004678)
+                0x400047f0                PROVIDE (Cache_Read_Disable, 0x400047f0)
+                [!provide]                PROVIDE (lldesc_build_chain, 0x40004f40)
+                [!provide]                PROVIDE (lldesc_num2link, 0x40005050)
+                [!provide]                PROVIDE (lldesc_set_owner, 0x4000507c)
+                [!provide]                PROVIDE (__adddf3, 0x4000c538)
+                [!provide]                PROVIDE (__addsf3, 0x4000c180)
+                [!provide]                PROVIDE (__divdf3, 0x4000cb94)
+                [!provide]                PROVIDE (__divdi3, 0x4000ce60)
+                [!provide]                PROVIDE (__divsi3, 0x4000dc88)
+                [!provide]                PROVIDE (__extendsfdf2, 0x4000cdfc)
+                [!provide]                PROVIDE (__fixdfsi, 0x4000ccb8)
+                [!provide]                PROVIDE (__fixunsdfsi, 0x4000cd00)
+                [!provide]                PROVIDE (__fixunssfsi, 0x4000c4c4)
+                [!provide]                PROVIDE (__floatsidf, 0x4000e2f0)
+                [!provide]                PROVIDE (__floatsisf, 0x4000e2ac)
+                [!provide]                PROVIDE (__floatunsidf, 0x4000e2e8)
+                [!provide]                PROVIDE (__floatunsisf, 0x4000e2a4)
+                [!provide]                PROVIDE (__muldf3, 0x4000c8f0)
+                [!provide]                PROVIDE (__muldi3, 0x40000650)
+                [!provide]                PROVIDE (__mulsf3, 0x4000c3dc)
+                [!provide]                PROVIDE (__subdf3, 0x4000c688)
+                [!provide]                PROVIDE (__subsf3, 0x4000c268)
+                [!provide]                PROVIDE (__truncdfsf2, 0x4000cd5c)
+                [!provide]                PROVIDE (__udivdi3, 0x4000d310)
+                0x4000e21c                PROVIDE (__udivsi3, 0x4000e21c)
+                [!provide]                PROVIDE (__umoddi3, 0x4000d770)
+                0x4000e268                PROVIDE (__umodsi3, 0x4000e268)
+                [!provide]                PROVIDE (__umulsidi3, 0x4000dcf0)
+                [!provide]                PROVIDE (bzero, 0x4000de84)
+                [!provide]                PROVIDE (memcmp, 0x4000dea8)
+                0x4000df48                PROVIDE (memcpy, 0x4000df48)
+                [!provide]                PROVIDE (memmove, 0x4000e04c)
+                0x4000e190                PROVIDE (memset, 0x4000e190)
+                [!provide]                PROVIDE (strcmp, 0x4000bdc8)
+                [!provide]                PROVIDE (strcpy, 0x4000bec8)
+                [!provide]                PROVIDE (strlen, 0x4000bf4c)
+                [!provide]                PROVIDE (strncmp, 0x4000bfa8)
+                [!provide]                PROVIDE (strncpy, 0x4000c0a0)
+                [!provide]                PROVIDE (strstr, 0x4000e1e0)
+                0x40004cf0                PROVIDE (gpio_input_get, 0x40004cf0)
+                [!provide]                PROVIDE (gpio_pin_wakeup_disable, 0x40004ed4)
+                [!provide]                PROVIDE (gpio_pin_wakeup_enable, 0x40004e90)
+                0x40001f00                PROVIDE (ets_io_vprintf, 0x40001f00)
+                [!provide]                PROVIDE (uart_rx_one_char, 0x40003b8c)
+                [!provide]                PROVIDE (rom_i2c_readReg, 0x40007268)
+                [!provide]                PROVIDE (rom_i2c_readReg_Mask, 0x4000729c)
+                [!provide]                PROVIDE (rom_i2c_writeReg, 0x400072d8)
+                [!provide]                PROVIDE (rom_i2c_writeReg_Mask, 0x4000730c)
+                [!provide]                PROVIDE (rom_software_reboot, 0x40000080)
+                [!provide]                PROVIDE (ets_memcpy, 0x400018b4)
+                0x40004b1c                PROVIDE (SPIRead, 0x40004b1c)
+                0x40004a4c                PROVIDE (SPIWrite, 0x40004a4c)
+                0x40004a00                PROVIDE (SPIEraseSector, 0x40004a00)
+                [!provide]                PROVIDE (gpio_input_get, 0x40004cf0)
+                [!provide]                PROVIDE (xthal_get_ccount, 0x4000dd38)
+                [!provide]                PROVIDE (uart_div_modify, 0x400039d8)
+                [!provide]                PROVIDE (ets_io_vprintf, 0x40001f00)
+OUTPUT(E:/code/angle/angle/build/bootloader/bootloader.elf elf32-xtensa-le)
+
+.debug_frame    0x00000000      0xabc
+ .debug_frame   0x00000000       0x74 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_frame   0x00000074       0xfc E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_frame   0x00000170       0xb4 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_frame   0x00000224       0xdc E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_frame   0x00000300      0x13c E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_frame   0x0000043c       0x38 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_frame   0x00000474       0x74 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_frame   0x000004e8      0x350 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_frame   0x00000838      0x16c E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_frame   0x000009a4       0x58 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .debug_frame   0x000009fc       0x80 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_frame   0x00000a7c       0x40 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+
+.debug_info     0x00000000     0x51cc
+ .debug_info    0x00000000      0x4b5 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_info    0x000004b5      0xcf2 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_info    0x000011a7      0x4fd E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_info    0x000016a4      0x547 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x00001beb      0xcf6 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x000028e1      0x3d6 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x00002cb7      0x341 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_info    0x00002ff8     0x134f E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_info    0x00004347      0x756 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_info    0x00004a9d      0x307 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .debug_info    0x00004da4      0x21f E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_info    0x00004fc3      0x209 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+
+.debug_abbrev   0x00000000     0x1444
+ .debug_abbrev  0x00000000      0x18e E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_abbrev  0x0000018e      0x238 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_abbrev  0x000003c6      0x1c1 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_abbrev  0x00000587      0x173 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_abbrev  0x000006fa      0x1e6 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_abbrev  0x000008e0      0x16e E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_abbrev  0x00000a4e      0x1aa E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_abbrev  0x00000bf8      0x306 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_abbrev  0x00000efe      0x176 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_abbrev  0x00001074      0x1c8 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .debug_abbrev  0x0000123c      0x159 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_abbrev  0x00001395       0xaf E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+
+.debug_loc      0x00000000     0x31ab
+ .debug_loc     0x00000000       0x76 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_loc     0x00000076      0x5b1 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_loc     0x00000627       0xf6 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_loc     0x0000071d      0x3a7 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_loc     0x00000ac4      0x991 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x00001455      0x108 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x0000155d      0x2e6 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_loc     0x00001843     0x10ba E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_loc     0x000028fd      0x5a0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_loc     0x00002e9d       0xe1 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .debug_loc     0x00002f7e       0x9b E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_loc     0x00003019      0x192 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+
+.debug_aranges  0x00000000      0x3a0
+ .debug_aranges
+                0x00000000       0x30 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_aranges
+                0x00000030       0x50 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_aranges
+                0x00000080       0x40 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_aranges
+                0x000000c0       0x48 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_aranges
+                0x00000108       0x60 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_aranges
+                0x00000168       0x20 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_aranges
+                0x00000188       0x30 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_aranges
+                0x000001b8       0xe8 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_aranges
+                0x000002a0       0x70 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_aranges
+                0x00000310       0x28 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .debug_aranges
+                0x00000338       0x38 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_aranges
+                0x00000370       0x30 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+
+.debug_ranges   0x00000000      0x3f8
+ .debug_ranges  0x00000000       0x20 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_ranges  0x00000020       0x40 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_ranges  0x00000060       0x30 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_ranges  0x00000090       0x38 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_ranges  0x000000c8       0x80 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_ranges  0x00000148       0x40 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_ranges  0x00000188       0x20 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_ranges  0x000001a8      0x190 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_ranges  0x00000338       0x60 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_ranges  0x00000398       0x18 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .debug_ranges  0x000003b0       0x28 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_ranges  0x000003d8       0x20 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+
+.debug_line     0x00000000     0x3c90
+ .debug_line    0x00000000      0x346 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .debug_line    0x00000346      0x7c2 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .debug_line    0x00000b08      0x455 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .debug_line    0x00000f5d      0x42c E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x00001389      0x754 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x00001add      0x32f E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x00001e0c      0x314 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .debug_line    0x00002120      0xd00 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .debug_line    0x00002e20      0x670 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .debug_line    0x00003490      0x352 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .debug_line    0x000037e2      0x2ab E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .debug_line    0x00003a8d      0x203 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+
+.debug_str      0x00000000     0x165b
+ .debug_str     0x00000000      0x438 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+                                0x4c1 (size before relaxing)
+ .debug_str     0x00000438      0x281 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+                                0x6d9 (size before relaxing)
+ .debug_str     0x000006b9      0x2a6 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+                                0x579 (size before relaxing)
+ .debug_str     0x0000095f      0x128 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+                                0x38b (size before relaxing)
+ .debug_str     0x00000a87      0x1b0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+                                0x75a (size before relaxing)
+ .debug_str     0x00000c37       0xcc E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+                                0x392 (size before relaxing)
+ .debug_str     0x00000d03      0x154 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+                                0x364 (size before relaxing)
+ .debug_str     0x00000e57      0x510 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+                                0x8fc (size before relaxing)
+ .debug_str     0x00001367      0x115 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+                                0x4a5 (size before relaxing)
+ .debug_str     0x0000147c       0xec E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+                                0x2a7 (size before relaxing)
+ .debug_str     0x00001568       0x8d E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+                                0x1f9 (size before relaxing)
+ .debug_str     0x000015f5       0x66 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+                                0x18a (size before relaxing)
+
+.comment        0x00000000       0x76
+ .comment       0x00000000       0x3c E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+                                 0x3d (size before relaxing)
+ .comment       0x0000003c       0x3d E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .comment       0x0000003c       0x3d E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .comment       0x0000003c       0x3d E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .comment       0x0000003c       0x3d E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .comment       0x0000003c       0x3d E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .comment       0x0000003c       0x3d E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .comment       0x0000003c       0x3d E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .comment       0x0000003c       0x3d E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .comment       0x0000003c       0x3d E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .comment       0x0000003c       0x3d E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .comment       0x0000003c       0x3d E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .comment       0x0000003c       0x3a E:/code/angle/components/esp8266/lib\libcore.a(phy.o)
+                                 0x3b (size before relaxing)
+ .comment       0x00000076       0x3b E:/code/angle/components/esp8266/lib\libcore.a(uart.o)
+
+.xtensa.info    0x00000000       0x38
+ .xtensa.info   0x00000000       0x38 E:/code/angle/angle/build/bootloader/main\libmain.a(bootloader_start.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_utility.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_init.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_flash.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(esp_image_format.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(flash_partitions.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/angle/build/bootloader/bootloader_support\libbootloader_support.a(bootloader_common.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/angle/build/bootloader/spi_flash\libspi_flash.a(spi_flash_raw.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/angle/build/bootloader/log\liblog.a(log.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/angle/build/bootloader/esp8266\libesp8266.a(ets_printf.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/angle/build/bootloader/util\libutil.a(crc.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/components/esp8266/lib\libcore.a(phy.o)
+ .xtensa.info   0x00000038        0x0 E:/code/angle/components/esp8266/lib\libcore.a(uart.o)

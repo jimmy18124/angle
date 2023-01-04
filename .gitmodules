@@ -1,0 +1,12 @@
+[submodule "components/json/cJSON"]
+        path = components/json/cJSON
+        url = https://gitee.com/xuhongv/cJSON.git
+
+[submodule "components/mbedtls/mbedtls"]
+        path = components/mbedtls/mbedtls
+        url = https://gitee.com/xuhongv/mbedtls.git
+
+[submodule "components/lwip/lwip"]
+        path = components/lwip/lwip
+        url = https://gitee.com/xuhongv/esp-lwip.git
+
